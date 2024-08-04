@@ -22,6 +22,7 @@ const resetGame = () => {
     turnO=true;
     enableBoxes();
     msg_container.classList.add("hide");
+    count=0;
 };
 
 boxes.forEach((box) => {
